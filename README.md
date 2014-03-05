@@ -18,7 +18,7 @@ pi@raspberrypi ~/code/SimpleRestForTherm $ sudo modprobe w1-gpio
 
 pi@raspberrypi ~/code/SimpleRestForTherm $ sudo modprobe w1-therm
 
-pi@raspberrypi ~/code/SimpleRestForTherm $ node server.js 
+pi@raspberrypi ~/code/SimpleRestForTherm $ node server.js   
 Listening on port 3000
 
 pi@raspberrypi ~/code/SimpleRestForTherm $ curl -s 127.0.0.1:3000/sensor  
