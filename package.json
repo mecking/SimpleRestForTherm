@@ -1,0 +1,15 @@
+{
+  "name": "SimpleRestForTherm",
+  "version": "0.0.1",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "",
+    "start": "node server.js"
+  },
+  "author": "Henrique Mecking",
+  "license": "BSD",
+  "dependencies": {
+	"restify": "2.6.3"
+   }
+}
