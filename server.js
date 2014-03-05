@@ -10,8 +10,6 @@ var server = restify.createServer({
 	version: '0.0.1'
 });
 
-var os = require('os');
-
 server.get('/sensor', function(req, res, next) {
 	temperature.read(function(data) {
 		if (data) {
@@ -24,5 +22,5 @@ server.get('/sensor', function(req, res, next) {
 });
 
 server.listen(3000, function() {
-	console.log('Listening on port 80');
+	console.log('Listening on port 3000');
 });
